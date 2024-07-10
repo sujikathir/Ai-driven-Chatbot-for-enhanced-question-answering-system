@@ -106,8 +106,8 @@ The system is built on a modular architecture that allows for easy integration o
 
 **Activate the virtual environment:**
 
-Windows: venv\Scripts\activate
-macOS/Linux: source venv/bin/activate
+Windows: ```bash venv\Scripts\activate ```
+macOS/Linux: ```bash source venv/bin/activate ```
 
 3. **Install Required Packages**
 With the virtual environment activated, run:
@@ -119,8 +119,8 @@ pip install langchain boto3 streamlit
 4. **Create Python Files**
 In your project folder, create two files:
 
-chatbot_backend.py
-chatbot_frontend.py
+- chatbot_backend.py
+- chatbot_frontend.py
 
 Copy the provided code into these files respectively.
 
