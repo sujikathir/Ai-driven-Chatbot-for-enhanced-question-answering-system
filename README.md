@@ -1,5 +1,7 @@
 # AI-Driven Knowledge Retrieval and Enhanced Question-Answering System
 
+![](https://github.com/sujikathir/Ai-driven-Chatbot-for-enhanced-question-answering-system/blob/main/source/cover%20page.jpg)
+
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Technologies Used](#technologies-used)
