@@ -106,8 +106,8 @@ The system is built on a modular architecture that allows for easy integration o
 
 **Activate the virtual environment:**
 
-Windows: ```bash venv\Scripts\activate ```
-macOS/Linux: ```bash source venv/bin/activate ```
+Windows: ``` venv\Scripts\activate ```
+macOS/Linux: ``` source venv/bin/activate ```
 
 3. **Install Required Packages**
 With the virtual environment activated, run:
