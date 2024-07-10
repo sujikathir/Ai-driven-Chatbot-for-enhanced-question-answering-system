@@ -114,6 +114,7 @@ With the virtual environment activated, run:
 
 ```bash
 pip install langchain boto3 streamlit
+```
 
 4. **Create Python Files**
 In your project folder, create two files:
@@ -134,6 +135,7 @@ In the terminal, navigate to your project directory and run:
 
 ```bash
 streamlit run chatbot_frontend.py
+```
 
 The chatbot should now be accessible through a web browser. Streamlit will provide a local URL (typically http://localhost:8501) where you can interact with your chatbot.
 
