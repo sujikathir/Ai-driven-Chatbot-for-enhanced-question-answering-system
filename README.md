@@ -1,5 +1,3 @@
-# Ai-driven-Chatbot-for-enhanced-question-answering-system
-
 # AI-Driven Knowledge Retrieval and Enhanced Question-Answering System
 
 ## Table of Contents
@@ -87,6 +85,65 @@ The system is built on a modular architecture that allows for easy integration o
 5. **Response Parsing**: Interprets and formats the model's output.
 6. **Display**: Shows the answer in the Streamlit interface.
 7. **History Management**: Uses LangChain for reading and writing conversation history.
+
+## Installation and Setup
+
+### Prerequisites
+- Python installed
+- Visual Studio Code installed
+- AWS account with necessary permissions for Amazon Bedrock
+
+### Steps
+
+1. **Create Project Directory**
+   - Open Visual Studio Code
+   - Create a new folder for your project
+
+2. **Set Up Virtual Environment**
+   Open a terminal in VS Code and run:
+   ```bash
+   python -m venv venv
+
+**Activate the virtual environment:**
+
+Windows: venv\Scripts\activate
+macOS/Linux: source venv/bin/activate
+
+3. **Install Required Packages**
+With the virtual environment activated, run:
+
+```bash
+pip install langchain boto3 streamlit
+
+4. **Create Python Files**
+In your project folder, create two files:
+
+chatbot_backend.py
+chatbot_frontend.py
+
+Copy the provided code into these files respectively.
+
+5. **Configure AWS Credentials**
+Ensure your AWS credentials are set up, either through:
+
+- AWS CLI configuration
+- Setting environment variables
+
+**Running the Application**
+In the terminal, navigate to your project directory and run:
+
+```bash
+streamlit run chatbot_frontend.py
+
+The chatbot should now be accessible through a web browser. Streamlit will provide a local URL (typically http://localhost:8501) where you can interact with your chatbot.
+
+**Troubleshooting**
+
+If you encounter issues:
+
+- Check that all imports are resolved
+- Verify your AWS credentials are correctly set up
+- Ensure you have the necessary permissions for Amazon Bedrock
 
 ## Future Improvements
 
